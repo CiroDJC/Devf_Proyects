@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
+}
+.user-profile .user-profile-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.user-profile .user-profile-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.user-profile .name{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    opacity: .4;
+}
+.user-profile .user-profile-background {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(45deg, #2196f3, #ecece9);
+}
+.user-profile .image-profile{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid #FFFFFF;
+    background-color: #DFE5F2;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: -65px;
+    left: calc(50% - 90px);
+    z-index: 1;
+}
+.user-profile .image-profile img {
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+}
+
+.title{
+    position: relative;
+    color: #2196f3;
+    top: 60px;
+    left:200px;
+    font-size: 50px;   
+}
+.user-profile .user-profile-body {
+    width: 70%;
+    position: relative;
+    max-width: 900px;
+}
+.user-profile-bio{
+    width: 300px;
+    position: relative;
+    right: 210px;   
+    top: 55px;
+}
+.user-profile-bio .sub-title{
+    font-size: 20px;
+    color:#2196f3;
+    padding: 7px;
+}
+.text{
+    color:#3b3a3a;
+    font-size: 15px;
+}
+.skills li{ 
+    color:#2196f3;
+    padding: 2px;
+}
+a:hover{
+    color:orange;
+}
+.user-profile-info{
+    padding-bottom:10px ;
+    width:700px;
+    position: absolute;
+    top: 112px;
+    left: 475px;
+}
+.user-profile-info .sub-title{
+    font-size: 20px;
+    color:#2196f3;
+    padding: 7px;
+    border-bottom: 1px solid #2196f3;
+    width: 700px;
+}
